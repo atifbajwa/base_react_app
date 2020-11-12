@@ -36,4 +36,4 @@ jobs:
       - name: install surge
         run: npm install -g surge
       - name: run the command to deploye the site on surge
-        run: surge ./build assignment2_base_react_app.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build assignment3_base_react_app.surge.sh --token ${{secrets.SURGE_TOKEN}}
